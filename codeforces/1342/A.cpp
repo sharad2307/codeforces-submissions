@@ -22,10 +22,12 @@ int main()
 		ll x,y,a,b;
 		cin>>x>>y>>a>>b;
 		ll p,q,r,s;
-		p=abs(x-y)*a+min(x,y)*b;
-		q=a*(x+y);
-		cout<<min({p,q})<<endl;
-
+		ll minn=min(x,y);
+		ll ans=0;
+		ans+=abs(x-y)*a;
+		if(2*a<b)ans+=(2*a*minn);
+		else ans+=minn*b;
+		cout<<ans<<endl;
 
 	}
 	
