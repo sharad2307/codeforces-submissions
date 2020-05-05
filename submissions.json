@@ -198,6 +198,24 @@
     ],
     "timestamp": "Dec/20/2020 23:41"
   },
+  "CF79028444": {
+    "contest_id": 276,
+    "language": "GNU C++14",
+    "path": "codeforces\\276\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Little Girl and Maximum Sum",
+    "problem_url": "https://codeforces.com/contest/276/problem/C",
+    "submission_id": "CF79028444",
+    "submission_url": "https://codeforces.com/contest/276/submission/79028444",
+    "tags": [
+      "data structures",
+      "greedy",
+      "implementation",
+      "sortings",
+      "*1500"
+    ],
+    "timestamp": "May/05/2020 12:01"
+  },
   "CF79032860": {
     "contest_id": 492,
     "language": "GNU C++14",
