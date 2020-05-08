@@ -18,13 +18,13 @@ int main()
 	
 	ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 
-	int n,k;
+	ll n,k;
     cin >> n >> k;
-    int left = 0,right = n;
+    ll left = 0,right = n;
     while(left!=right - 1)
     {
-        int mid=(left+right)/2;
-        int x=mid,v = 0;
+        ll mid=(left+right)/2;
+        ll x=mid,v = 0;
         while(x)
             v+=x,x/=k;
         if(v >= n)
