@@ -198,6 +198,22 @@
     ],
     "timestamp": "Dec/20/2020 23:41"
   },
+  "CF80009934": {
+    "contest_id": 762,
+    "language": "GNU C++14",
+    "path": "codeforces\\762\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "k-th divisor",
+    "problem_url": "https://codeforces.com/contest/762/problem/A",
+    "submission_id": "CF80009934",
+    "submission_url": "https://codeforces.com/contest/762/submission/80009934",
+    "tags": [
+      "math",
+      "number theory",
+      "*1400"
+    ],
+    "timestamp": "May/13/2020 23:46"
+  },
   "CF80056899": {
     "contest_id": 538,
     "language": "GNU C++14",
