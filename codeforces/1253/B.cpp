@@ -107,7 +107,7 @@ int main()
 
 	}
 
-	if(z==0 || v.size()==0 || sum!=0)
+	if(z==0 || sum!=0)
 		cout<<-1;
 	else
 	{
