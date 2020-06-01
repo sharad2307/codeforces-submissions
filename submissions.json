@@ -198,6 +198,22 @@
     ],
     "timestamp": "Dec/20/2020 23:41"
   },
+  "CF82208854": {
+    "contest_id": 1183,
+    "language": "GNU C++14",
+    "path": "codeforces\\1183\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Computer Game",
+    "problem_url": "https://codeforces.com/contest/1183/problem/C",
+    "submission_id": "CF82208854",
+    "submission_url": "https://codeforces.com/contest/1183/submission/82208854",
+    "tags": [
+      "binary search",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Jun/01/2020 16:39"
+  },
   "CF82240943": {
     "contest_id": 1208,
     "language": "GNU C++14",
