@@ -198,6 +198,23 @@
     ],
     "timestamp": "Dec/20/2020 23:41"
   },
+  "CF82331184": {
+    "contest_id": 1159,
+    "language": "GNU C++14",
+    "path": "codeforces\\1159\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "The Party and Sweets",
+    "problem_url": "https://codeforces.com/contest/1159/problem/C",
+    "submission_id": "CF82331184",
+    "submission_url": "https://codeforces.com/contest/1159/submission/82331184",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Jun/02/2020 22:33"
+  },
   "CF82338961": {
     "contest_id": 1284,
     "language": "GNU C++14",
