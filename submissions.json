@@ -198,6 +198,22 @@
     ],
     "timestamp": "Dec/20/2020 23:41"
   },
+  "CF82410619": {
+    "contest_id": 825,
+    "language": "GNU C++14",
+    "path": "codeforces\\825\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Five-In-a-Row",
+    "problem_url": "https://codeforces.com/contest/825/problem/B",
+    "submission_id": "CF82410619",
+    "submission_url": "https://codeforces.com/contest/825/submission/82410619",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Jun/03/2020 20:47"
+  },
   "CF84745776": {
     "contest_id": 1217,
     "language": "GNU C++14",
