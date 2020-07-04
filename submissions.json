@@ -198,6 +198,22 @@
     ],
     "timestamp": "Dec/20/2020 23:41"
   },
+  "CF86008151": {
+    "contest_id": 1103,
+    "language": "GNU C++14",
+    "path": "codeforces\\1103\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Grid game",
+    "problem_url": "https://codeforces.com/contest/1103/problem/A",
+    "submission_id": "CF86008151",
+    "submission_url": "https://codeforces.com/contest/1103/submission/86008151",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Jul/05/2020 01:28"
+  },
   "CF86450890": {
     "contest_id": 1220,
     "language": "GNU C++14",
