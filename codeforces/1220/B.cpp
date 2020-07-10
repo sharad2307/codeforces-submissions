@@ -72,16 +72,11 @@ int main()
 	cin >> n;
 	ll a[n][n];
 
-	loop(i, 0, n)
-	{
-		loop(j, 0, n)
-		{
-			cin >> a[i][j];
-		}
+	for (ll i = 0; i < n; i++)
+		for (ll j = 0; j < n; j++) cin >> a[i][j];
+			ll z = (a[0][1] * a[2][0]) / a[1][2];
+		
+		z = sqrt(z);
+		cout << z << " ";
+		for (ll i = 1; i < n; i++) cout << a[0][i] / z << " ";
 	}
-	ll z = (a[0][1] * a[2][0]) / a[1][2];
-
-	z = sqrt(z);
-	cout << z << " ";
-	for (ll i = 1; i < n; i++) cout << a[0][i] / z << " ";
-}
