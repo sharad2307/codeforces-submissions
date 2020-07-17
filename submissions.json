@@ -198,6 +198,22 @@
     ],
     "timestamp": "Dec/20/2020 23:41"
   },
+  "CF87046916": {
+    "contest_id": 1084,
+    "language": "GNU C++14",
+    "path": "codeforces\\1084\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Kvass and the Fair Nut",
+    "problem_url": "https://codeforces.com/contest/1084/problem/B",
+    "submission_id": "CF87046916",
+    "submission_url": "https://codeforces.com/contest/1084/submission/87046916",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Jul/17/2020 12:34"
+  },
   "CF87192363": {
     "contest_id": 1385,
     "language": "GNU C++14",
