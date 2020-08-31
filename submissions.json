@@ -198,6 +198,24 @@
     ],
     "timestamp": "Dec/20/2020 23:41"
   },
+  "CF91487601": {
+    "contest_id": 1397,
+    "language": "GNU C++14",
+    "path": "codeforces\\1397\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Stoned Game",
+    "problem_url": "https://codeforces.com/contest/1397/problem/D",
+    "submission_id": "CF91487601",
+    "submission_url": "https://codeforces.com/contest/1397/submission/91487601",
+    "tags": [
+      "brute force",
+      "games",
+      "greedy",
+      "implementation",
+      "*1800"
+    ],
+    "timestamp": "Aug/31/2020 17:24"
+  },
   "CF91692232": {
     "contest_id": 920,
     "language": "GNU C++14",
