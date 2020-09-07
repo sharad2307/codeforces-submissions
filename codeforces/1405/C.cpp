@@ -72,7 +72,7 @@ void solve()
 				if(s[j]!='?')
 				{
 					s[i]=s[j];
-					break;
+					// break;
 				}
 			}
 		}
