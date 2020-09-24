@@ -50,7 +50,7 @@ bool checkprime(ll num) { if(num < 2) return false; for(ll i = 2; i * i <= num; 
 ll EularPHI(ll num) { double ans = num; for(ll i = 2; i * i <= num; i++){ if(num % i == 0){ while (num % i == 0) { num /= i; } ans *= (1.0 - (1.0 / (double)i)); } } if(num > 1) ans *= (1.0 - (1.0 / (double)num)); return (ll)ans; }
 ll sumofdigit(ll n){ll sum=0;while(n){sum=sum+n%10;n=n/10;}return sum;}
 ll countDigit(ll n) { if (n == 0) return 0; return 1 + countDigit(n / 10); }
-ll countDigit(ll n) { return floor(log10(n) + 1); } //only positive
+ll countDigit(ll n) { return floor(log10(n) + 1); } //only firstitive
  ***/
 
 template <class T> inline T gcd(T a, T b) {if (b == 0)return a; return gcd(b, a % b);}
@@ -58,19 +58,50 @@ template <class T> inline T lcm(T a, T b) {return a * b / gcd<T>(a, b);}
 template <class T> inline T power(T b, T p) {ll ans = 1; while (p--) ans *= b; return ans;}
 ll sumofdigit(ll n){ll sum=0;while(n){sum=sum+n%10;n=n/10;}return sum;}
 
+
 void solve()
 {	
 	ll n,q;
 	cin>>n>>q;
-	ll a[n];
-	loop(i,0,n)cin>>a[i];
-	ll ans=0;
-	ans=a[0];
-	loop(i,1,n)
+	vll v(n);
+	ll flag=0;ll z=1,ans=0;
+	loop(i,0,n)cin>>v[i];
+	vll first,second;
+
+	if(n>1)
 	{
-		ans+=max(0ll,a[i]-a[i-1]);
+		if(v[0]<v[1])flag=1;
+		else first.pb(v[0]);
 	}
-	cout<<ans<<nl;
+
+	loop(i,1,n-1)
+	{
+		if(v[i+1]<v[i])
+		{
+			if(flag==1 && z)
+			{
+				flag=0;
+				first.pb(v[i]);
+			}
+		}
+		else if(flag==0 && z)
+		{
+				flag=1;
+				second.pb(v[i]);
+		}
+	}
+
+	if(n>1)
+		if(flag==1 && z)first.pb(v[n-1]);
+
+	
+	ll ssss=second.size();
+	if(ssss=first.size())ssss--;
+	for(auto i:first)ans+=i;
+		for(ll i=0;i<ssss;i++)ans-=second[i];
+
+			if(n==1)ans=1;
+		cout<<ans<<nl;
 }
 
 
@@ -84,12 +115,12 @@ int main()
 #endif
 
 	ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
- 	
- 	ll t=1;
- 	cin>>t;
- 	while(t--)
- 	{
- 		solve();
- 	}
+
+	ll t=1;
+	cin>>t;
+	while(t--)
+	{
+		solve();
+	}
 	
 }
