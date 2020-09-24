@@ -198,6 +198,22 @@
     ],
     "timestamp": "Dec/20/2020 23:41"
   },
+  "CF93654813": {
+    "contest_id": 1420,
+    "language": "GNU C++14",
+    "path": "codeforces\\1420\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Cubes Sorting",
+    "problem_url": "https://codeforces.com/contest/1420/problem/A",
+    "submission_id": "CF93654813",
+    "submission_url": "https://codeforces.com/contest/1420/submission/93654813",
+    "tags": [
+      "math",
+      "sortings",
+      "*900"
+    ],
+    "timestamp": "Sep/24/2020 20:11"
+  },
   "CF93679067": {
     "contest_id": 1420,
     "language": "GNU C++14",
