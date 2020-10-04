@@ -198,6 +198,23 @@
     ],
     "timestamp": "Dec/20/2020 23:41"
   },
+  "CF94633816": {
+    "contest_id": 761,
+    "language": "GNU C++14",
+    "path": "codeforces\\761\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Dasha and friends",
+    "problem_url": "https://codeforces.com/contest/761/problem/B",
+    "submission_id": "CF94633816",
+    "submission_url": "https://codeforces.com/contest/761/submission/94633816",
+    "tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Oct/04/2020 15:24"
+  },
   "CF94669690": {
     "contest_id": 1422,
     "language": "GNU C++14",
