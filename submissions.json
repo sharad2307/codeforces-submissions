@@ -198,6 +198,25 @@
     ],
     "timestamp": "Dec/20/2020 23:41"
   },
+  "CF95215727": {
+    "contest_id": 1430,
+    "language": "GNU C++14",
+    "path": "codeforces\\1430\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Numbers on Whiteboard",
+    "problem_url": "https://codeforces.com/contest/1430/problem/C",
+    "submission_id": "CF95215727",
+    "submission_url": "https://codeforces.com/contest/1430/submission/95215727",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "implementation",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Oct/11/2020 15:09"
+  },
   "CF95500664": {
     "contest_id": 1368,
     "language": "GNU C++14",
