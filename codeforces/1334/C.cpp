@@ -63,7 +63,7 @@ void solve()
 
 	vpll v(2*n+5);
 	vll cost(2*n+5,0);
-	ll ans=LLONG_MAX;
+	ll ans=(1LL<<60);
 
 	loop(i,0,n)
 	{
