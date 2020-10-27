@@ -57,35 +57,6 @@ template <class T> inline T gcd(T a, T b) {if (b == 0)return a; return gcd(b, a 
 template <class T> inline T lcm(T a, T b) {return a * b / gcd<T>(a, b);}
 template <class T> inline T power(T b, T p) {ll ans = 1; while (p--) ans *= b; return ans;}
 
-void solve()
-{
-	ll n;cin>>n;
-	ll height[mx]={0};
-
-	ll a[n];
-	loop(i,0,n)cin>>a[i];
-	ll itr=0;
-	height[itr]=0;
-
-	loop(i,1,n)
-	{
-		if(a[i]>a[i-1])
-		{
-			height[i]=height[itr]+1;
-		}
-		else
-		{
-			itr++;
-			height[i]=height[itr]+1;
-		}
-	}
-
-	ll ans=0;
-	f(i,1,n)ans=max(ans,height[i]);
-
-	cout<<ans<<nl;
-}
-
 
 int main()
 {
@@ -98,12 +69,49 @@ int main()
 
 	ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 
-	ll t = 1;
-	cin>>t;
-	// ll pppppp=1;
-	while (t--)
+	ll t;
+	cin >> t;
+	while (t--) 
 	{
-		// cout<<"CASE #"<<pppppp;
-		solve();
+		ll i, j, k, n, m, ct = 0, t, ans = 0,flag=1;
+		cin >> n;
+		ll a[n + 6];
+		loop(i,0,n) cin >> a[i];
+		ll height = 0;
+		if (n == 1)
+		{
+			cout << 0<<nl;
+			continue;
+		}
+		if (n == 2)
+		{
+			cout << 1<<nl;
+			continue;
+		}
+		i = 1; j = i;
+		ll ped = 1;
+		while (i < n)
+		{
+
+			ll c = 0;
+			j = i;
+			height++;
+			while (ped > 0)
+			{
+				ped--;
+				while ((j + 1 < n) && (a[j + 1] > a[j] && flag))
+				{
+					j++;
+					c++;
+					flag=1;
+				}
+
+				j++; c++;
+
+			}
+			i = j;
+			ped = c;
+		}
+		cout << height << nl;
 	}
 }
