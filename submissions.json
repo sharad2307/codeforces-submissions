@@ -1,4 +1,21 @@
 {
+  "CF100349894": {
+    "contest_id": 742,
+    "language": "GNU C++14",
+    "path": "codeforces\\742\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Arpa\u2019s hard exam and Mehrdad\u2019s naive cheat",
+    "problem_url": "https://codeforces.com/contest/742/problem/A",
+    "submission_id": "CF100349894",
+    "submission_url": "https://codeforces.com/contest/742/submission/100349894",
+    "tags": [
+      "implementation",
+      "math",
+      "number theory",
+      "*1000"
+    ],
+    "timestamp": "Dec/04/2020 18:28"
+  },
   "CF100356167": {
     "contest_id": 1453,
     "language": "GNU C++14",
